@@ -16,7 +16,7 @@ spec:
       - name: todo-app
         image: surajkk93/todo-app:latest  # Your Docker Hub image
         ports:
-        - containerPort: 2000  # The port your app is running on
+        - containerPort: 5000  # The port your app is running on
 ---
 apiVersion: v1
 kind: Service
