@@ -31,7 +31,7 @@ Docker Image:
 
 The app is packaged as a Docker image and is available on Docker Hub:
 
-    docker pull surajkk93/todo-app:latest
+    docker pull surajkk93/todo-app:0.1
 -------------------------------
 How to Deploy on Docker Swarm
 
@@ -48,7 +48,7 @@ Steps:
 5. Check the Service: To verify that your service is running, run:
 
     `docker service ls`
-7. Access the Application: Access the app through your server's IP address on port 80:
+7. Access the Application: Access the app through your server's IP address on port 5000:
  
   `http://localhost:5000`
 
